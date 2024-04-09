@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded',  ()=> {
 
         if (result.success){
             localStorage.setItem('usernameLoggedIn', usernameByInput);
-            return window.location.href = '../tasks.html';
+            return window.location.href = 'tasks.html';
         }
         else {
             alert('username tidak ditemukan')
