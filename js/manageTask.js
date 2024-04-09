@@ -126,6 +126,6 @@ document.addEventListener('DOMContentLoaded', ()=> {
 
         }
     }
-
+    
     displayAllTasks();
 });
